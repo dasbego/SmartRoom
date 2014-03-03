@@ -60,6 +60,7 @@ public class main {
         Horario horario = new Horario(4,4);
         //Posibles clases
         List<Clase> posiblesClases = new ArrayList<Clase>();
+        
         //Restricciones
         List<Restriccion> restricciones = new ArrayList<Restriccion>();
         
@@ -93,7 +94,7 @@ public class main {
         tempRestriccion.hora = 2;
         restricciones.add(tempRestriccion);
         
-         //ITIL
+        //ITIL
         tempClase.materia = "ITIL";
         tempClase.maestro = "Pepe";
         posiblesClases.add(tempClase);

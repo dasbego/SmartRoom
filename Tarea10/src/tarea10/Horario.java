@@ -1,6 +1,7 @@
 //Esta clase representa el horario
 package tarea10;
 
+import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -33,6 +34,80 @@ public class Horario {
         posiblesClases = new ArrayList<Clase>();
     }
     
+    //regresa clases con el nombre dado
+    public List<Clase> getClassesByName(String nameClass)
+    {
+        List<Clase> classList = new ArrayList<Clase>();
+        for(Clase clase : posiblesClases)
+        {
+            if( clase.materia.equals(nameClass))
+            {
+                classList.add(clase);
+            }
+        }
+        return classList;
+    }
+    
+    //regresa clases que sean a la hora dada
+    public List<Clase> getClassesByHour(int hora)
+    {
+        List<Clase> clasesCandidatas = new ArrayList<Clase>();
+         for (Restriccion res : restricciones) 
+         {
+             if(res.hora == hora)
+             {
+                 for(Clase clase : posiblesClases)
+                 {
+                     if(clase.materia.equals(res.materia))
+                     {
+                         clasesCandidatas.add(clase);
+                     }
+                 }
+                         
+             }
+         }
+         return clasesCandidatas;
+    }
+        
+    //false si el nombre dado ya da clase a la hora dada
+    public boolean checkDispProfByHour(int hour, String name)
+    {
+        
+        for(int i =0; i<clases[hour].length; i++)
+        {
+            if(clases[hour][i].maestro.equals(name))
+                return false;
+        }
+        return true;
+    }
+    
+    
+    
+    
+    /*
+    public boolean clasesSalonxHora()
+    {
+        List<Clase> clasesXhora = new ArrayList<Clase>();
+        for(int hora = 0; hora < clases[0].length; hora++)
+        {
+            for(int salon = 0; salon < clases.length; salon++)
+            {
+                
+                if(clases[hora][salon] == null)
+                {
+                    clasesXhora = getClassesByHour(hora);
+                    
+                }
+            }
+        }
+     
+        
+        for (int i = 0; i < posiblesClases.size(); i++) {
+            
+        }
+        return false;
+    }
+     */  
     //Metodo para checar si el horario es valido
     public boolean horarioValido()
     {
