@@ -128,7 +128,6 @@ public class main {
     //funcion backtracking
     public static Horario arrange(Horario horario){
         
-        
         if(horario.horarioCompleto()){
             if(horario.horarioValido()){
                 return horario;
