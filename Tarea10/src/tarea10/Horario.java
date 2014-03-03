@@ -20,7 +20,8 @@ public class Horario {
     
     //Esta es la lista de restricciones de que materias se pueden dar en cierta hora
     public List<Restriccion> restricciones;
-    
+    public int horashorario;
+    public int salonesTotal;
     //Esta lista representa las posibles materias que se pueden dar
     //Por ejemplo el profe 1 puede dar la clase 2, 3 y 4 por decir algo
     //El chiste del problema va a ser colocar estas materias dentro de la matriz
@@ -29,6 +30,8 @@ public class Horario {
     
     public Horario(int salones, int horas)
     {
+        horashorario = horas;
+        salonesTotal = salones;
         clases = new Clase[salones][horas];
         restricciones = new ArrayList<Restriccion>();
         posiblesClases = new ArrayList<Clase>();

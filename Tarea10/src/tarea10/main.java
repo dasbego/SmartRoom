@@ -126,6 +126,9 @@ public class main {
         
     }
     
+    
+    
+    
     //funcion backtracking
     public static Horario arrange(Horario horario){
         
@@ -134,18 +137,87 @@ public class main {
                 return horario;
             }
         }
-        Clase nClass = selectClass(horario.posiblesClases, horario);
+      //  Clase nClass = selectClass(horario.posiblesClases, horario);
         
         return horario;
         
     }
     
     //funcion para seleccionar siguiente: Heuristica de la variable menos restringida
-    public static Clase selectClass(List<Clase> clases, Horario horario){
+    /*
+    public static void insertClasses(List<Clase> clases, Horario horario){
+        
+        List<Clase> disponiblesXhora = new ArrayList<Clase>();
+        
+        for (int i = 0; i < horario.horashorario; i++) {
+            disponiblesXhora = horario.getClassesByHour(i);
+            List <String> diffNames = getDifProfNamesFromList(disponiblesXhora);
+            
+            for(int j =0; j<horario.salonesTotal; j++)
+            {
+                String profNameTmp = diffNames.get(0);                
+                int tmpCount = countProfList(disponiblesXhora, profNameTmp);
+                
+                
+                for (int k = 0; k < diffNames.size(); k++) {
+                    if(tmpCount > countProfList(disponiblesXhora, diffNames.get(k))){
+                       tmpCount = countProfList(disponiblesXhora, diffNames.get(k));
+                       String materia = disponiblesXhora.get(0).materia;
+                       profNameTmp = diffNames.get(k);
+                    }
+                    
+                }
+            }
+            
+        }
         
         
         
         return null;
+    }
+    */
+    public static List<String> getDifProfNamesFromList(List<Clase> clases)
+    {
+        List<String> names = new ArrayList<String>();        
+        int size  = clases.size();
+        
+        String nameTmp = clases.get(0).maestro;
+        names.add(nameTmp);
+        
+        for (int i = 1; i < size; i++) {            
+            if(names.contains(clases.get(i).maestro))
+                continue;
+            else
+                names.add(clases.get(i).maestro);
+            
+        }
+        return names;
+    }
+    
+    
+    
+    public static List<Clase> removeDuplicateProf(List<Clase> clases, String nameProf, String className)
+    {
+        List<Clase> resultList = new ArrayList<Clase>();
+        for(Clase clase : clases)
+        {
+            if(clase.maestro.equals(nameProf) || clase.materia.equals(className))
+                resultList.add(clase);
+        }
+        return resultList;
+    }
+    
+    //Cuantas materias da un prof especifico en la lista de materias dada
+    public static int countProfList(List<Clase> clases, String name)
+    {
+        int times=0;
+        for(Clase clase : clases)
+        {
+            if( clase.maestro.equals(name))
+                times++;
+        }
+        
+        return times;
     }
     
 }
