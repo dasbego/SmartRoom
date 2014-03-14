@@ -1,1 +1,7 @@
 /Tarea10/build/
+/Proyecto/Temp/
+/Proyecto/obj
+/Proyecto/library
+*.csproj
+*.unityproj
+*.sln
