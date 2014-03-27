@@ -28,7 +28,6 @@ public class MovimientoSol : MonoBehaviour {
 		position.y = center.y + Mathf.Sin (angle) * radius;
 		position.z = center.z;
 		sun.transform.position = position;
-		Debug.Log (angle);
 		if (angle > Mathf.PI)
 			sunLight.light.enabled = false;
 		else
