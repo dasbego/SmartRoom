@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=0529EB39A032490590D62C7F224CAC62/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=0529EB39A032490590D62C7F224CAC62/Name/@EntryValue">All tests from UnitTest1.cs #2</s:String>
+	<s:String x:Key="/Default/Housekeeping/UnitTestingMru/UnitTestSessionPersistentData/=0529EB39A032490590D62C7F224CAC62/XmlSerializedElements/@EntryValue">&lt;Session&gt;&lt;Elements&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:Test.UnitTest1" type="MsTestTestClassElement" TypeName="Test.UnitTest1" Project="07DB5A03-A6E6-4596-97E6-1996559824AD" /&gt;&lt;UnitTestElement Provider="MSTest" Id="MsTest:Test.UnitTest1.TestTemperature" ParentId="MsTest:Test.UnitTest1" type="MsTestTestMethodElement" MethodName="TestTemperature" TypeName="Test.UnitTest1" Project="07DB5A03-A6E6-4596-97E6-1996559824AD" /&gt;&lt;/Elements&gt;&lt;/Session&gt;</s:String>
+	
+	
+	
+	
+	
+	</wpf:ResourceDictionary>

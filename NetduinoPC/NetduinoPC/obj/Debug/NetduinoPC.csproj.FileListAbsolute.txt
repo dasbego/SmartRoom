@@ -1,0 +1,6 @@
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\NetduinoPC\NetduinoPC\bin\Debug\NetduinoPC.exe.config
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\NetduinoPC\NetduinoPC\bin\Debug\NetduinoPC.exe
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\NetduinoPC\NetduinoPC\bin\Debug\NetduinoPC.pdb
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\NetduinoPC\NetduinoPC\obj\Debug\NetduinoPC.csprojResolveAssemblyReference.cache
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\NetduinoPC\NetduinoPC\obj\Debug\NetduinoPC.exe
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\NetduinoPC\NetduinoPC\obj\Debug\NetduinoPC.pdb

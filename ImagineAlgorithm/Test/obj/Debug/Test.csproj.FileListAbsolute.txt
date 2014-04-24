@@ -1,0 +1,7 @@
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\Test\bin\Debug\Test.dll
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\Test\bin\Debug\Test.pdb
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\Test\bin\Debug\ImagineAlgorithm.exe
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\Test\bin\Debug\ImagineAlgorithm.pdb
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\Test\obj\Debug\Test.dll
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\Test\obj\Debug\Test.pdb

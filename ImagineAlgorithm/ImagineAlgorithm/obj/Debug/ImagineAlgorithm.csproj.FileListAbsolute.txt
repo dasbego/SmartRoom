@@ -1,0 +1,8 @@
+c:\users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\ImagineAlgorithm.exe.config
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\ImagineAlgorithm.exe
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\ImagineAlgorithm.pdb
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\FuzzyLogicLibrary.dll
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\FuzzyLogicLibrary.pdb
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\FuzzyLogicLibrary.xml
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\ImagineAlgorithm\obj\Debug\ImagineAlgorithm.exe
+C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\ImagineAlgorithm\obj\Debug\ImagineAlgorithm.pdb
