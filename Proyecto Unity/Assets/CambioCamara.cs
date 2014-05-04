@@ -32,10 +32,10 @@ public class CambioCamara : MonoBehaviour {
 				camera.SetActive(false);
 			}
 		}
-		if (!firstPerson && Input.GetKey(KeyCode.W) && overCamera.transform.position.z < 1) {
+		if (!firstPerson && Input.GetKey(KeyCode.W) && overCamera.transform.position.z < 5) {
 			overCamera.transform.Translate(0,1.0f,0);
 		}
-		if (!firstPerson && Input.GetKey(KeyCode.S) && overCamera.transform.position.z > -9) {
+		if (!firstPerson && Input.GetKey(KeyCode.S) && overCamera.transform.position.z > -15) {
 			overCamera.transform.Translate(0,-1.0f,0);
 		}
 	}
