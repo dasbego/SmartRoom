@@ -8,7 +8,7 @@ using AI.Fuzzy.Library;
 
 namespace ImagineAlgorithm
 {
-    internal class DoorWindow
+    public class DoorWindow
     {
         private MamdaniFuzzySystem doorsWindows = null;
 

@@ -9,3 +9,8 @@ C:\Users\murde_000\documents\visual studio 2012\Projects\ImagineAlgorithm\Imagin
 C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\ImagineAlgorithm.exe.config
 C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\ImagineAlgorithm\ImagineAlgorithm\obj\Debug\ImagineAlgorithm.exe
 C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\ImagineAlgorithm\ImagineAlgorithm\obj\Debug\ImagineAlgorithm.pdb
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\ImagineAlgorithm.exe
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\ImagineAlgorithm.pdb
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\FuzzyLogicLibrary.pdb
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\ImagineAlgorithm\ImagineAlgorithm\bin\Debug\FuzzyLogicLibrary.xml
+C:\Users\JoséGabriel\Documents\GitHub\SmartRoom\ImagineAlgorithm\ImagineAlgorithm\obj\Debug\ImagineAlgorithm.csprojResolveAssemblyReference.cache

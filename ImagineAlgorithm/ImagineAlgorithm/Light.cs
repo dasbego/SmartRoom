@@ -7,7 +7,7 @@ using AI.Fuzzy.Library;
 
 namespace ImagineAlgorithm
 {
-    class Light
+    public class Light
     {
         public MamdaniFuzzySystem _lightControl = null;
 
